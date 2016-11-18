@@ -6,7 +6,7 @@ out <- paste(OutFile,"xyd", sep=".")
 
 species.unic <- unique(data[ ,1])
 
-occ_dist <- paste(data[,2],data[,3],sep=" ")
+occ_dist <- paste(data[,3],data[,2],sep=" ")
 
 data2 <- matrix(0,nrow=length(data[ ,1]),ncol=2)
 
